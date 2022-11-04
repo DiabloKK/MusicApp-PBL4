@@ -1,0 +1,31 @@
+
+.button-navigation {
+    border: none;
+    background-color: #6C4AB6;
+    margin-left: 9px;
+    margin-bottom: 60px;
+}
+
+#App {
+    width: 1400px;
+    height: 800px;
+    border-radius: 30px;
+    background-color: #6C4AB6;
+    margin: auto;
+    position: relative;
+}
+
+#sideBar {
+    width: 160px;
+    height: 800px;
+    position: relative;
+}
+
+#navigation {
+    margin-left: 22px;
+    height: 340px;
+    width: 60px;
+    position: absolute;
+    left: 22px;
+    top: 200px;
+}
