@@ -1,7 +1,7 @@
 
 .button-navigation {
     border: none;
-    background-color: #6C4AB6;
+    background-color: #373658;
     margin-left: 9px;
     margin-bottom: 60px;
 }
@@ -9,8 +9,8 @@
 #App {
     width: 1400px;
     height: 800px;
-    border-radius: 30px;
-    background-color: #6C4AB6;
+    border-radius: 60px;
+    background-color: #373658;
     margin: auto;
     position: relative;
 }
@@ -19,13 +19,147 @@
     width: 160px;
     height: 800px;
     position: relative;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+#Home {
+    width: 1280px;
+    height: 788px;
+    background-color: #fff;
+    border-radius: 56px;
+    position: absolute;
+    left: 111px;
+    top: 5px;
 }
 
 #navigation {
-    margin-left: 22px;
     height: 340px;
     width: 60px;
     position: absolute;
-    left: 22px;
+    left: 26px;
     top: 200px;
+}
+
+#logo {
+    position: absolute;
+    left: 30px;
+    top: 77px;
+}
+
+#settingBtn {
+    position: absolute;
+    left: 26px;
+    bottom: 80px;
+}
+
+#Header {
+    width: 1220px;
+    height: 44px;
+    padding: 0;
+    position: absolute;
+    top: 23px;
+    left: 35px;
+}
+
+#Header h1 {
+    margin: 0;
+    height: 44px;
+    display: inline-block;
+    line-height: 44px;
+}
+
+#OptionHeader {
+    width: 477px;
+    height: 30px;
+    position: absolute;
+    top: 7px;
+    right: 18px;
+    background-color: #fff;
+}
+
+#Search{
+    width: 268px;
+    height: 30px;
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    left: 0;
+}
+
+#Search i, #Open i {
+    margin-right: 5px;
+    line-height: 30px;
+}
+
+#Search input {
+    border: none;
+    width: 247px;
+}
+
+#Open {
+    width: 164px;
+    height: 30px;
+    display: flex;
+    justify-items: center;
+    position: absolute;
+    right: 0;
+}
+
+#Open button {
+    border: none;
+    width: 143px;
+    border-radius: 10px;
+}
+
+#BodyHome {
+    width: 1220px;
+    height: 240px;
+    background-color: #373658;
+    position: absolute;
+    left: 0;
+    top: 100px;
+    left: 35px;
+    border-radius: 20px;
+
+}
+
+#ListMusic {
+    width: 1220px;
+    height: 410px;
+    position: absolute;
+    left: 35px;
+    bottom: 23px;
+}
+
+#ListMusic h2 {
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+#ItemMusic {
+    width: 1185px;
+    height: 45px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+#ItemMusic h3{
+    margin: 0;
+    width: 50px;
+    text-align: center;
+    line-height: 45px;
+}
+
+#ItemMusic h2 {
+    margin: 0;
+
+}
+
+#ItemMusic div {
+    width: 300px;
+    height: 44px;
+    margin: 0;
 }
